@@ -1,0 +1,3 @@
+firewall_rules_webservers:
+  - allow port 80
+  - allow port 443

@@ -1,0 +1,2 @@
+firewall_rules_database:
+  - allow port 3306

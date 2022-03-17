@@ -1,0 +1,13 @@
+all:
+  hosts:
+    node0:
+      ansible_host: localhost
+    node1:
+      ansible_host: localhost
+  children:
+    web-servers:
+      hosts:
+        node0:
+    database-servers:
+      hosts:
+        node1:

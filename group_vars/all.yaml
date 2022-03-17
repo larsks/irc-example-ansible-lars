@@ -1,0 +1,4 @@
+firewall_rules: "{{ q('vars', *q('varnames', '^firewall_rules_')) | flatten }}"
+firewall_rules_common:
+  - allow icmp
+  - allow port 22
